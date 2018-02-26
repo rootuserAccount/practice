@@ -1,0 +1,17 @@
+sudo apt install pv 
+echo "let's play a exciting game:" | pv -qL 8
+echo "get root identify..." | pv -qL 8
+echo "..." | pv -qL 8
+echo "success!" 
+echo "login as root..." | pv -qL 8
+echo "..." | pv -qL 8
+echo "root@localhost:/# pwd" | pv -qL 8
+echo "/"
+echo "say goodbye baby!" | pv -qL 8
+echo "root@localhost:/# rm -rf *" | pv -qL 8
+echo "bash:error (unexpected system broken)"
+shutdown -h now
+
+
+
+
